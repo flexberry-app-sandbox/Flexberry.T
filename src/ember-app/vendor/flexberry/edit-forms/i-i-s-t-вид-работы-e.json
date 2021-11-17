@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Вид работы",
+  "name": "IISTВидРаботыE",
+  "className": "ВидРаботыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-t-вид-работы",
+      "modelProjection": "ВидРаботыE"
+    }
+  ]
+}

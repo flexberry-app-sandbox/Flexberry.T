@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-t-заявка-e",
+  "editForm": "i-i-s-t-заявка-e",
+  "external": false,
+  "caption": "Заявка",
+  "name": "IISTЗаявкаL",
+  "className": "ЗаявкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-t-заявка",
+      "modelProjection": "ЗаявкаL"
+    }
+  ]
+}

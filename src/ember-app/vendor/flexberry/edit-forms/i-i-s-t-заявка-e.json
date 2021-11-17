@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заявка",
+  "name": "IISTЗаявкаE",
+  "className": "ЗаявкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-t-заявка",
+      "modelProjection": "ЗаявкаE"
+    }
+  ]
+}

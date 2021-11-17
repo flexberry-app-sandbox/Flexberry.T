@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISTПункт",
+  "modelName": "i-i-s-t-пункт",
+  "className": "Пункт",
+  "nameSpace": "IIS.T",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "сделано",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "работа",
+      "relatedTo": "i-i-s-t-работа",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "задание",
+      "relatedTo": "i-i-s-t-задание",
+      "inverse": "пункт"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПунктE",
+      "modelName": "i-i-s-t-пункт",
+      "attrs": [
+        {
+          "name": "сделано",
+          "caption": "Сделано",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "План",
+          "lookupValueField": "план",
+          "relationName": "Работа",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "план",
+              "caption": "План",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Работа",
+          "name": "работа",
+          "relatedTo": "i-i-s-t-работа",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

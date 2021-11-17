@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-t-задание-e",
+  "editForm": "i-i-s-t-задание-e",
+  "external": false,
+  "caption": "Задание",
+  "name": "IISTЗаданиеL",
+  "className": "ЗаданиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-t-задание",
+      "modelProjection": "ЗаданиеL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-t-работа-e",
+  "editForm": "i-i-s-t-работа-e",
+  "external": false,
+  "caption": "Работа",
+  "name": "IISTРаботаL",
+  "className": "РаботаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-t-работа",
+      "modelProjection": "РаботаL"
+    }
+  ]
+}

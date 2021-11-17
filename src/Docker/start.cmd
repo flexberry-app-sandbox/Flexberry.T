@@ -1,0 +1,1 @@
+docker-compose -p t up -d

@@ -1,0 +1,58 @@
+﻿{
+  "applicationCaption": "T",
+  "applicationTitle": "T",
+  "items": [
+    {
+      "link": null,
+      "menuName": "водоканал",
+      "caption": "Водоканал",
+      "title": "Водоканал",
+      "children": [
+        {
+          "link": "i-i-s-t-вид-работы-l",
+          "menuName": null,
+          "caption": "Вид работы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-t-работа-l",
+          "menuName": null,
+          "caption": "Работа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-t-задание-l",
+          "menuName": null,
+          "caption": "Задание",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-t-вид-работы-l",
+          "menuName": null,
+          "caption": "Вид работы",
+          "title": "Вид работы",
+          "children": null
+        },
+        {
+          "link": "i-i-s-t-заявка-l",
+          "menuName": null,
+          "caption": "Заявка",
+          "title": "Заявка",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

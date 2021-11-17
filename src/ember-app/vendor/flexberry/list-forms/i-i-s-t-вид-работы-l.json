@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-t-вид-работы-e",
+  "editForm": "i-i-s-t-вид-работы-e",
+  "external": false,
+  "caption": "Вид работы",
+  "name": "IISTВидРаботыL",
+  "className": "ВидРаботыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-t-вид-работы",
+      "modelProjection": "ВидРаботыL"
+    }
+  ]
+}
