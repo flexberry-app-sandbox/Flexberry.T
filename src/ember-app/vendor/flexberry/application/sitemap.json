@@ -9,13 +9,6 @@
       "title": "Водоканал",
       "children": [
         {
-          "link": "i-i-s-t-вид-работы-l",
-          "menuName": null,
-          "caption": "Вид работы",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-t-работа-l",
           "menuName": null,
           "caption": "Работа",
@@ -27,6 +20,13 @@
           "menuName": null,
           "caption": "Задание",
           "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-t-заявка-l",
+          "menuName": null,
+          "caption": "Заявка",
+          "title": "Заявка",
           "children": null
         }
       ]
@@ -45,10 +45,10 @@
           "children": null
         },
         {
-          "link": "i-i-s-t-заявка-l",
+          "link": "i-i-s-t-сотрудник-l",
           "menuName": null,
-          "caption": "Заявка",
-          "title": "Заявка",
+          "caption": "Сотрудник",
+          "title": "Сотрудник",
           "children": null
         }
       ]

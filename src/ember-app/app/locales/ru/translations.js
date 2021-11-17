@@ -97,16 +97,20 @@ $.extend(true, translations, {
         водоканал: {
           caption: 'Водоканал',
           title: 'Водоканал',
-          'i-i-s-t-вид-работы-l': {
-            caption: 'Вид работы',
-            title: ''
-          },
           'i-i-s-t-работа-l': {
             caption: 'Работа',
             title: ''
           },
           'i-i-s-t-задание-l': {
             caption: 'Задание',
+            title: ''
+          },
+          'i-i-s-t-заявка-l': {
+            caption: 'Заявка',
+            title: 'Заявка'
+          },
+          'i-i-s-t-вид-работы-l': {
+            caption: 'Вид работы',
             title: ''
           }
         },
@@ -116,6 +120,10 @@ $.extend(true, translations, {
           'i-i-s-t-вид-работы-l': {
             caption: 'Вид работы',
             title: 'Вид работы'
+          },
+          'i-i-s-t-сотрудник-l': {
+            caption: 'Сотрудник',
+            title: 'Сотрудник'
           },
           'i-i-s-t-заявка-l': {
             caption: 'Заявка',

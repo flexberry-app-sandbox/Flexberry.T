@@ -25,22 +25,22 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.водоканал.caption'),
           title: i18n.t('forms.application.sitemap.водоканал.title'),
           children: [{
-            link: 'i-i-s-t-вид-работы-l',
-            caption: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-вид-работы-l.caption'),
-            title: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-вид-работы-l.title'),
-            icon: 'tags',
-            children: null
-          }, {
             link: 'i-i-s-t-работа-l',
             caption: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-работа-l.caption'),
             title: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-работа-l.title'),
-            icon: 'briefcase',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-t-задание-l',
             caption: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-задание-l.caption'),
             title: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-задание-l.title'),
-            icon: 'file',
+            icon: 'tasks',
+            children: null
+          }, {
+            link: 'i-i-s-t-заявка-l',
+            caption: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-заявка-l.caption'),
+            title: i18n.t('forms.application.sitemap.водоканал.i-i-s-t-заявка-l.title'),
+            icon: 'table',
             children: null
           }]
         }, {
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-t-вид-работы-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-t-вид-работы-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-t-вид-работы-l.title'),
-            icon: 'building',
+            icon: 'table',
             children: null
           }, {
-            link: 'i-i-s-t-заявка-l',
-            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-t-заявка-l.caption'),
-            title: i18n.t('forms.application.sitemap.справочники.i-i-s-t-заявка-l.title'),
-            icon: 'folder',
+            link: 'i-i-s-t-сотрудник-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-t-сотрудник-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-t-сотрудник-l.title'),
+            icon: 'address card',
             children: null
           }]
         }
